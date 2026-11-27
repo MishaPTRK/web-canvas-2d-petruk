@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  gap: 15px;
+  background: #ffffff;
+  padding: 15px;
+  border: 2px solid #000000;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #000000;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ffffff;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+button.active {
+  background: #000000;
+  color: #ffffff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #000000;
+}
+
+canvas {
+  border: 2px solid #000000;
+  background: #ffffff;
+  cursor: crosshair;
+}
